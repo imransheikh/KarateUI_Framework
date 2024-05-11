@@ -1,0 +1,12 @@
+{
+  "LoginScreen": {
+    "SignInLink" : "//div[@class='panel header']//li[@class='authorization-link']//a[contains(text(),'Sign In')]",
+    "EmailAddress" : "//input[@name='login[username]']",
+    "Password" : "//input[@name='login[password]']",
+    "SignInButton" : "//fieldset[@class='fieldset login']//button[@type='submit' and @name='send']",
+    "WelcomeLinkAfterLogin": "//div[@class='panel header']//li[@class='greet welcome']//span[@class='logged-in']",
+    "WelcomeToggleDropdown":"//div[@class='panel header']//span[@class='customer-name']//button",
+    "SignOutLink" : "//ul[@class='header links']//div[@aria-hidden='false']//li[@class='authorization-link']",
+    "LoginErrorMessage": "//div[@role='alert']/div/div"
+  }
+}

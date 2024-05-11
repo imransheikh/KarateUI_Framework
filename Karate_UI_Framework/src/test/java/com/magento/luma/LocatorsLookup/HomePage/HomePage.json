@@ -1,0 +1,14 @@
+{
+  "NavigationMenuLink": {
+    "MenNavigationMenu" : "//div[@id='store.menu']//a//span[contains(text(),'Men')]",
+    "WomenNavigationMenu" : "//div[@id='store.menu']//a//span[contains(text(),'Women')]"
+  },
+
+  "SideBarMenu": {
+    "JacketItem" : "//div[@class='categories-menu']//li/a[contains(text(),'Jackets')]",
+    "ProductItemName": "//a[contains(@class,'product-item-link') and contains(text(),'Proteus Fitness Jackshirt')]"
+  }
+
+
+
+}

@@ -1,0 +1,9 @@
+{
+  "ProductDetails": {
+    "ProductSize" : "//div[@role='listbox']//div[@aria-label='S']",
+    "ProductColor" : "//div[@role='listbox']//div[@aria-label='Blue']",
+    "AddToCart" : "//button[@id='product-addtocart-button']",
+    "CartIcon" : "//a[contains(@class,'showcart')]",
+    "ProceedToCheckout" : "//button[contains(@id,'top-cart-btn-checkout')]"
+  }
+}

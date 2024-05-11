@@ -1,0 +1,9 @@
+{
+  "OrderSummary": {
+    "ProductName" : "//strong[@class='product-item-name']",
+    "ProductPrice" : "//span[@class='cart-price']//span[@class='price']",
+    "NextButton" : "//button[@type='submit']/span[contains(text(),'Next')]",
+    "PlaceOrder" : "//button[@type='submit']/span[contains(text(),'Place Order')]",
+    "OrderConfirmationMessage" : "//span[@data-ui-id='page-title-wrapper']"
+  }
+}
